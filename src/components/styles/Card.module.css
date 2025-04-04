@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+
+  padding: 20px;
+
+  border-bottom: 1px solid #f5f5f5;
+  gap: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.card p {
+  font-size: 11px;
+}
+.cardImg {
+  width: 160px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: black;
+}
+
+.map {
+  color: #918e9b;
+  font-size: 11px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.map:hover {
+  text-decoration: underline;
+}
+
+.place {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+  height: 40px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #2b283a;
+  line-height: 1.6;
+}
